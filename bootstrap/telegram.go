@@ -2,13 +2,14 @@ package bootstrap
 
 import (
 	"fmt"
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/config"
-	"github.com/wechatgpt/wechatbot/handler/telegram"
-	"github.com/wechatgpt/wechatbot/utils"
 	"strings"
 	"time"
+
+	"github.com/cjyzwg/chatgptapi/config"
+	"github.com/cjyzwg/chatgptapi/handler/telegram"
+	"github.com/cjyzwg/chatgptapi/utils"
+	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	log "github.com/sirupsen/logrus"
 )
 
 func StartTelegramBot() {

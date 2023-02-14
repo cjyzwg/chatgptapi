@@ -9,8 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/wechatgpt/wechatbot/handler/api"
-	// "wechatbot/handler/api"
+	"github.com/cjyzwg/chatgptapi/handler/api"
 )
 
 func StartApi() {

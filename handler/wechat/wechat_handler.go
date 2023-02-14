@@ -2,12 +2,13 @@ package wechat
 
 import (
 	"fmt"
+	"strings"
+
+	"github.com/cjyzwg/chatgptapi/config"
+	"github.com/cjyzwg/chatgptapi/openai"
+	"github.com/cjyzwg/chatgptapi/utils"
 	"github.com/eatmoreapple/openwechat"
 	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/config"
-	"github.com/wechatgpt/wechatbot/openai"
-	"github.com/wechatgpt/wechatbot/utils"
-	"strings"
 )
 
 var _ MessageHandlerInterface = (*GroupMessageHandler)(nil)

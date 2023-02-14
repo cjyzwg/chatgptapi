@@ -1,9 +1,10 @@
 package telegram
 
 import (
-	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/openai"
 	"strings"
+
+	"github.com/cjyzwg/chatgptapi/openai"
+	log "github.com/sirupsen/logrus"
 )
 
 func Handle(msg string) *string {

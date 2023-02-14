@@ -1,4 +1,4 @@
-module github.com/wechatgpt/wechatbot
+module github.com/cjyzwg/chatgptapi
 
 go 1.16
 

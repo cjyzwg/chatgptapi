@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/config"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
+
+	"github.com/cjyzwg/chatgptapi/config"
+	log "github.com/sirupsen/logrus"
 )
 
 // ChatGPTResponseBody 请求体

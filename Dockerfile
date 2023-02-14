@@ -2,7 +2,7 @@ FROM golang:1.19-alpine
 
 ENV api_key=""
 
-RUN export GOPRIVATE=github.com/houko/wechatgpt
+RUN export GOPRIVATE=github.com/cjyzwg/chatgptapi
 
 WORKDIR /app
 

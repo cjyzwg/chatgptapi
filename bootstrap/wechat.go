@@ -1,10 +1,11 @@
 package bootstrap
 
 import (
+	"os"
+
+	"github.com/cjyzwg/chatgptapi/handler/wechat"
 	"github.com/eatmoreapple/openwechat"
 	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/handler/wechat"
-	"os"
 )
 
 func StartWebChat() {

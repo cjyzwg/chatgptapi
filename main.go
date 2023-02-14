@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/cjyzwg/chatgptapi/bootstrap"
+	"github.com/cjyzwg/chatgptapi/config"
 	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/bootstrap"
-	"github.com/wechatgpt/wechatbot/config"
 )
 
 func main() {

@@ -3,8 +3,8 @@ package api
 import (
 	"strings"
 
+	"github.com/cjyzwg/chatgptapi/openai"
 	log "github.com/sirupsen/logrus"
-	"github.com/wechatgpt/wechatbot/openai"
 )
 
 func Handle(msg string) *string {
